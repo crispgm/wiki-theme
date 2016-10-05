@@ -1,0 +1,42 @@
+---
+layout: null
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ site.title }}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
+  </head>
+  <body>
+    <div class="container">
+      <header class="menu">
+        <div class="menu-item">
+          <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+        </div>
+        <div class="menu-item">
+          <a href="{{ site.baseurl }}/home/">Home</a>
+        </div>
+        <div class="menu-item">
+          <a href="{{ site.baseurl }}/about/">About</a>
+        </div>
+      </header>
+      <div class="section">
+        {% for item in site.data.wiki %}
+        <div class="section-wrap">
+          <div class="section-item item-q">
+            {{ item.q }}
+          </div>
+          <div class="section-item item-a">
+            {{ item.a }}
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+    <footer>
+      <div>Copyright &copy; {{ site.author }}, {{ site.time | date: "%Y" }}.</div>
+    </footer>
+  </body>
+</html>
