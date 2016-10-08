@@ -58,7 +58,7 @@ a:hover {
 .dropdown-button {
   color: #fbfbfb;
   background-color: #333;
-  width: 8rem;
+  min-width: 8rem;
   font-size: 1.25rem;
   padding: .5rem;
   border-radius: .2rem;
@@ -81,7 +81,7 @@ a:hover {
   position: absolute;
   color: #fbfbfb;
   background-color: #333;
-  width: 8rem;
+  min-width: 8rem;
 }
 .dropdown-content a {
   font-size: 1rem;
