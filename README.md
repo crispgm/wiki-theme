@@ -33,9 +33,7 @@ I use it on my website <https://crispgm.com/wiki/>.
     jekyll build
     ```
 
-### gem
-
-* NOT LAUNCH YET
+### Gem-based theme (WIP, NOT LAUNCH YET)
 
 1. To install a theme, first, add the theme to your site's `Gemfile`:
 
