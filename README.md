@@ -14,7 +14,7 @@ I use it on my website <https://crispgm.com/wiki/>.
 1. Clone the project.
 
     ```
-    git clone https://github.com/crispgm/resume.git
+    git clone https://github.com/crispgm/wiki.git
     ```
 
 2. Modify `_data/wiki.yml` to add your QAs.
