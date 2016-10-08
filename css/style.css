@@ -64,7 +64,7 @@ a:hover {
   border-radius: .2rem;
   border: none;
   text-align: center;
-  letter-spacing: .2rem;
+  letter-spacing: .1rem;
   cursor: hand;
 }
 .dropdown-button a {
