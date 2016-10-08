@@ -12,14 +12,13 @@ layout: null
   <body>
     <div class="container">
       <header class="menu">
-        <div class="menu-item">
-          <a href="{{ site.baseurl }}/">{{ site.title }}</a>
-        </div>
-        <div class="menu-item">
-          <a href="{{ site.baseurl }}/home/">Home</a>
-        </div>
-        <div class="menu-item">
-          <a href="{{ site.baseurl }}/about/">About</a>
+        <div class="dropdown">
+          <button onclick="toggleDropdown()" class="dropdown-button">Wiki</button>
+          <div id="dropdown-menu" class="dropdown-content">
+            <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+            <a href="{{ site.baseurl }}/home/">Home</a>
+            <a href="{{ site.baseurl }}/about/">About</a>
+          </div>
         </div>
       </header>
       <div class="section">
@@ -39,4 +38,21 @@ layout: null
       <div>Copyright &copy; {{ site.author }}, {{ site.time | date: "%Y" }}.</div>
     </footer>
   </body>
+  <script>
+  function toggleDropdown() {
+      document.getElementById("dropdown-menu").classList.toggle("dropdown-show");
+  }
+  window.onclick = function(event) {
+    if (!event.target.matches('.dropdown-button')) {
+      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (openDropdown.classList.contains('dropdown-show')) {
+          openDropdown.classList.remove('dropdown-show');
+        }
+      }
+    }
+  }
+  </script>
 </html>
