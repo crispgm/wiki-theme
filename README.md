@@ -1,9 +1,9 @@
-# Wiki
+# Crisp Wiki Theme for Jekyll
 
 ![](https://img.shields.io/badge/license-MIT-blue.svg)
 ![](https://img.shields.io/badge/powered%20by-jekyll-red.svg)
 
-A simple responsive wiki theme of Jekyll from Crisp.
+A simple responsive wiki theme for Jekyll from Crisp.
 
 I use it on my website <https://crispgm.com/wiki/>.
 
