@@ -16,9 +16,10 @@ layout: null
           <div class="dropdown-button">
             <a href="javascript:toggleDropdown()">Wiki</a>
           </div>
-          <div id="dropdown-menu" class="dropdown-content">
-            <a href="{{ site.baseurl }}/">{{ site.title }}</a>
+          <div class="dropdown-button">
             <a href="{{ site.baseurl }}/home/">Home</a>
+          </div>
+          <div class="dropdown-button">
             <a href="{{ site.baseurl }}/about/">About</a>
           </div>
         </div>
@@ -50,11 +51,18 @@ layout: null
   </body>
   <script>
   function toggleDropdown() {
-      document.getElementById("dropdown-menu").classList.toggle("dropdown-show");
+      var dropdowns = document.getElementsByClassName("dropdown-button");
+      var i;
+      for (i = 0; i < dropdowns.length; i++) {
+        var openDropdown = dropdowns[i];
+        if (!openDropdown.classList.contains('dropdown-show')) {
+          openDropdown.classList.toggle('dropdown-show');
+        }
+      }
   }
   window.onclick = function(event) {
     if (!event.target.matches('.dropdown-button')) {
-      var dropdowns = document.getElementsByClassName("dropdown-content");
+      var dropdowns = document.getElementsByClassName("dropdown-button");
       var i;
       for (i = 0; i < dropdowns.length; i++) {
         var openDropdown = dropdowns[i];
