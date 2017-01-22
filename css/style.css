@@ -102,7 +102,7 @@ a:hover {
 }
 .section-content {
   padding-right: .5rem;
-  max-width: 100%;
+  width: 100%;
 }
 .title-q:before {
   content: "Q";
