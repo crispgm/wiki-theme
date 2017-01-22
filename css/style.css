@@ -99,6 +99,7 @@ a:hover {
   margin-bottom: 1rem;
 }
 .section-title {
+  overflow: auto;
 }
 .section-content {
   padding-right: .5rem;
