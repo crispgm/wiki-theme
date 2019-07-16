@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name                    = "jekyll-theme-crisp-wiki"
-  spec.version                 = "1.0.1"
+  spec.version                 = "1.1.0"
   spec.authors                 = ["David Zhang"]
 
   spec.summary                 = %q{A minimalist wiki template for Jekyll.}
