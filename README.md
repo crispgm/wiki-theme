@@ -33,12 +33,12 @@ I use it on my website <https://crispgm.com/wiki/>.
     jekyll build
     ```
 
-### Gem-based theme (WIP, NOT LAUNCH YET)
+### Gem-based theme
 
 1. To install a theme, first, add the theme to your site's `Gemfile`:
 
     ```
-    gem 'jekyll-crisp-wiki-theme'
+    gem 'jekyll-theme-crisp-wiki'
     ```
 
 2. Save the changes to your `Gemfile`
@@ -46,7 +46,7 @@ I use it on my website <https://crispgm.com/wiki/>.
 4. Finally, activate the theme by adding the following to your site's `_config.yml`:
 
     ```
-    theme: jekyll-crisp-wiki-theme
+    theme: jekyll-theme-crisp-wiki
     ```
 
 For more information, please read [https://jekyllrb.com/docs/themes/](https://jekyllrb.com/docs/themes/).
