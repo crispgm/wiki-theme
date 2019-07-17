@@ -1,6 +1,7 @@
 title: Wiki
 author: David Zhang
 baseurl: ""
+highlight: true
 exclude:
   - README.md
   - LICENSE

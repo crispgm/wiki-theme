@@ -8,6 +8,11 @@ layout: null
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/style.css">
+    {% if site.highlight == true %}
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.8/build/styles/nord.min.css">
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.15.8/build/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+    {% endif %}
   </head>
   <body>
     <div class="container">

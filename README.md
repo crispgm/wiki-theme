@@ -51,6 +51,12 @@ I use it on my website <https://crispgm.com/wiki/>.
 
 For more information, please read [https://jekyllrb.com/docs/themes/](https://jekyllrb.com/docs/themes/).
 
+## Configuration
+
+* `title`
+* `author`
+* `highlight`
+
 ## Sample
 
 [[Sample Site](https://crisp.lol/wiki/)][[Screenshot](/screenshots/screenshot.jpg)]
