@@ -59,4 +59,4 @@ For more information, please read [https://jekyllrb.com/docs/themes/](https://je
 
 ## Sample
 
-[[Sample Site](https://crisp.lol/wiki/)][[Screenshot](/screenshots/screenshot.jpg)]
+[[Sample Site](https://crisp.dev/wiki/)][[Screenshot](/screenshots/screenshot.jpg)]
