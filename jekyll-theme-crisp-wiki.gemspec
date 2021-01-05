@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name                    = "jekyll-theme-crisp-wiki"
-  spec.version                 = "1.2.0"
+  spec.version                 = "1.2.1"
   spec.authors                 = ["David Zhang"]
 
   spec.summary                 = %q{A minimalist wiki template for Jekyll.}
@@ -13,9 +13,10 @@ Gem::Specification.new do |spec|
     f.match(%r{^(assets|_(data|includes|layouts|sass)/|(LICENSE|README)((\.(txt|md|markdown)|$)))}i)
   end
 
-  spec.required_ruby_version = '~> 2.3'
+  spec.required_ruby_version = '>= 2.3'
 
   spec.add_runtime_dependency "jekyll", "~> 3.8"
+  spec.add_runtime_dependency "webrick", "~> 1.7"
 
   spec.add_development_dependency "bundler", "~> 2.0"
   spec.add_development_dependency "rake", ">= 12.3.3"
